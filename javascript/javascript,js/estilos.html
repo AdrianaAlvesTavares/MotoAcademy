@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <button id="mudarCorBotao">Botao</button> -->
+
+    <p id="paragrafo"> palavra <br> <br>
+        <button id="mudarEstiloBotao">mudar estilo</button>
+    </p>
+    <script >
+    // //  document.getElementById('mudarCorBotao').addEventListener('click', ()=>{
+        // //     document.body.style.backgroundColor = 'blue'
+    //  })
+    document.getElementById('mudarEstiloBotao').addEventListener('click', function() {
+        const texto = document.getElementById('paragrafo')
+
+        texto.style.color = 'red'
+        texto.style.fontSize = '50px'
+        texto.style.fontWeight = 'bold'
+    })
+    </script>
+</body>
+</html>
